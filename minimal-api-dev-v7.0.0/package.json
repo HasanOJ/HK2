@@ -30,18 +30,22 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.4.8",
+    "better-sqlite3": "^12.5.0",
     "dayjs": "^1.11.13",
     "es-toolkit": "^1.33.0",
     "jose": "^6.0.10",
     "next": "^14.2.26",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
+    "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^22.13.13",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.5",
+    "@types/uuid": "^10.0.0",
     "@typescript-eslint/parser": "^8.28.0",
     "eslint": "^9.23.0",
     "eslint-import-resolver-typescript": "^4.2.2",

@@ -7,6 +7,11 @@
     "allowJs": true,
     "resolveJsonModule": true,
 
+    /* Paths */
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
     /* Build */
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],

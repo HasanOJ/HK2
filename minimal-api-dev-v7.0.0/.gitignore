@@ -35,3 +35,11 @@ build
 .vscode
 tsconfig.tsbuildinfo
 .ncurc.js
+
+# SQLite database
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Uploads
+public/uploads/
