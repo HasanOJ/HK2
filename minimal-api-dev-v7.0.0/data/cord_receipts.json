@@ -1,0 +1,4128 @@
+[
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0000",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 45500,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 4500,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 45500
+    },
+    "items": [
+      {
+        "name": "REAL GANACHE",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 16500
+      },
+      {
+        "name": "EGG TART",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 13000
+      },
+      {
+        "name": "PIZZA TOAST",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 16000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0001",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 23000,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 27000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 23000
+    },
+    "items": [
+      {
+        "name": "Kopi Susu Kolonel",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 23000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0002",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 18181,
+      "tax_amount": 1818,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 80000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 20000
+    },
+    "items": [
+      {
+        "name": "S-Ovaltine 50%",
+        "quantity": 1,
+        "unit_price": 20000,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0003",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 28000,
+      "tax_amount": 0,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 28000,
+      "cash_paid": 28000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 28000
+    },
+    "items": [
+      {
+        "name": "M-Caramel Black Tea",
+        "quantity": 1,
+        "unit_price": 28000,
+        "total_price": 28000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0004",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 41000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 41000,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 9000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 41000
+    },
+    "items": [
+      {
+        "name": "BBQ Chicken",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 41000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0005",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 7273,
+      "tax_amount": 727,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 8000,
+      "cash_paid": 8000,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 8000
+    },
+    "items": [
+      {
+        "name": "LE MINERAL",
+        "quantity": 100,
+        "unit_price": null,
+        "total_price": 8000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0006",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 123000,
+      "cash_paid": null,
+      "card_paid": 123000,
+      "change_amount": null,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 123000
+    },
+    "items": [
+      {
+        "name": "POTATO SAUSAGE BREAD",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 19000
+      },
+      {
+        "name": "OREO GREEN TEA SPREAD",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 52000
+      },
+      {
+        "name": "WHITE CHOCO BANANA SPREAD",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 52000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0007",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 63636,
+      "tax_amount": 5409,
+      "service_charge": null,
+      "discount": 9545,
+      "total_amount": 59500,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 40500,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 63636
+    },
+    "items": [
+      {
+        "name": "Choco Devil",
+        "quantity": 4,
+        "unit_price": null,
+        "total_price": 63636
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0008",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 11700,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 11700,
+      "cash_paid": 20000,
+      "card_paid": null,
+      "change_amount": 8300,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": true,
+      "items_sum": 19500
+    },
+    "items": [
+      {
+        "name": "TALAM UNGU",
+        "quantity": 3,
+        "unit_price": 6500,
+        "total_price": 19500
+      },
+      {
+        "name": "MIKA KECIL",
+        "quantity": 1,
+        "unit_price": 0,
+        "total_price": 0
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0009",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 20000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 20000
+    },
+    "items": [
+      {
+        "name": "Tahu Ikan Oma Giok",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0010",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 60000,
+      "cash_paid": 60000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 60000
+    },
+    "items": [
+      {
+        "name": "Serbu 1",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 40000
+      },
+      {
+        "name": "Choco Peanut Bread",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0011",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 81000,
+      "tax_amount": 8100,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 89100,
+      "cash_paid": null,
+      "card_paid": 89100,
+      "change_amount": 0,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 81000
+    },
+    "items": [
+      {
+        "name": "Se'I Sapi Sambal Matah ( R )",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 20000
+      },
+      {
+        "name": "Se'I Sapi Lada Hitam (J)",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 35000
+      },
+      {
+        "name": "Nasi Putih",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 10000
+      },
+      {
+        "name": "Milk Shake Coklat",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 16000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0012",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 72000,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "e-money",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 72000
+    },
+    "items": [
+      {
+        "name": "ES KOPI SUSU",
+        "quantity": 4,
+        "unit_price": null,
+        "total_price": 72000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0013",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 41364,
+      "tax_amount": 4136,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 45500,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 4500,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 41363
+    },
+    "items": [
+      {
+        "name": "MINERAL 600 ML",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 7727
+      },
+      {
+        "name": "BULGOGI RICE R",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 33636
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0014",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 36000,
+      "tax_amount": 3600,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 39600,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "e-money",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 36000
+    },
+    "items": [
+      {
+        "name": "Arem Arem",
+        "quantity": 2,
+        "unit_price": 12000,
+        "total_price": 24000
+      },
+      {
+        "name": "Kroket",
+        "quantity": 1,
+        "unit_price": 12000,
+        "total_price": 12000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0015",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 54000,
+      "tax_amount": 5400,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 59400,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 40600,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 54000
+    },
+    "items": [
+      {
+        "name": "Arem Arem",
+        "quantity": 2,
+        "unit_price": 12000,
+        "total_price": 24000
+      },
+      {
+        "name": "Pepenero Pastel",
+        "quantity": 2,
+        "unit_price": 15000,
+        "total_price": 30000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0016",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 80000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 20000
+    },
+    "items": [
+      {
+        "name": "TT",
+        "quantity": 1,
+        "unit_price": 20000,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0017",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 20000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 80000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 20000
+    },
+    "items": [
+      {
+        "name": "LEMONADE 16OZ",
+        "quantity": 1,
+        "unit_price": 20000,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0018",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 25000,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 75000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 25000
+    },
+    "items": [
+      {
+        "name": "beef C roll 3pcs",
+        "quantity": 1,
+        "unit_price": 10000,
+        "total_price": 10000
+      },
+      {
+        "name": "kaya bred",
+        "quantity": 1,
+        "unit_price": 15000,
+        "total_price": 15000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0019",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 42500,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 7500,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 42500
+    },
+    "items": [
+      {
+        "name": "FUTAMI 17 GREEN TEA (CLAS",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 12500
+      },
+      {
+        "name": "EGG TART",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 13000
+      },
+      {
+        "name": "GRAIN CROQUE MONSIEUR",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 17000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0020",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 15000,
+      "tax_amount": 1500,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 16500,
+      "cash_paid": 20000,
+      "card_paid": null,
+      "change_amount": 3500,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 15000
+    },
+    "items": [
+      {
+        "name": "JAMUR",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 10000
+      },
+      {
+        "name": "TAHU",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 5000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0021",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 194726,
+      "tax_amount": 20446,
+      "service_charge": 9736,
+      "discount": null,
+      "total_amount": 224908,
+      "cash_paid": null,
+      "card_paid": 224908,
+      "change_amount": null,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 263452
+    },
+    "items": [
+      {
+        "name": "Mango Lemon Tea",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 29090
+      },
+      {
+        "name": "Sliders Set",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 113636
+      },
+      {
+        "name": "Chicken Vege Rice Bowl",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 86363
+      },
+      {
+        "name": "Discount BCA 15%",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 34363
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0022",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 280000,
+      "tax_amount": 28000,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 308000,
+      "cash_paid": null,
+      "card_paid": 308000,
+      "change_amount": null,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 280000
+    },
+    "items": [
+      {
+        "name": "RedVelvet Nutella",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 280000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0023",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 18182,
+      "tax_amount": 1818,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 20000,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 18182
+    },
+    "items": [
+      {
+        "name": "BUBBLE GUM",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 18182
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0024",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 80500,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 19500,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 80500
+    },
+    "items": [
+      {
+        "name": "PAIN AU CHOCOLATE",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 11000
+      },
+      {
+        "name": "CHOCO CUSTARD PASTRY",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 12000
+      },
+      {
+        "name": "MILK PASTRY ROLL",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 9000
+      },
+      {
+        "name": "REAL CHEESE INSIDE BREAD",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 13500
+      },
+      {
+        "name": "SAUSAGE BREAD",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 15000
+      },
+      {
+        "name": "HAM CHEESE FLAT BREAD",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0025",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 180000,
+      "tax_amount": 18900,
+      "service_charge": 9000,
+      "discount": null,
+      "total_amount": 207900,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 180000
+    },
+    "items": [
+      {
+        "name": "Sop Sui Jiao",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 33000
+      },
+      {
+        "name": "Ha Kaou Udng",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 28000
+      },
+      {
+        "name": "Sio May Kpting",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 23500
+      },
+      {
+        "name": "Siomay Kmbinasi",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 23000
+      },
+      {
+        "name": "Leng Hong Kien",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 30000
+      },
+      {
+        "name": "Mie Trsi Kgkung",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 35500
+      },
+      {
+        "name": "Es Teh Tawar",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 7000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0026",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 35000,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 35000
+    },
+    "items": [
+      {
+        "name": "NASI MERAH/PUTIH",
+        "quantity": 1,
+        "unit_price": 5000,
+        "total_price": 5000
+      },
+      {
+        "name": "SAYUR",
+        "quantity": 2,
+        "unit_price": 4000,
+        "total_price": 8000
+      },
+      {
+        "name": "KERUPUK/SAMBEL",
+        "quantity": 1,
+        "unit_price": 2000,
+        "total_price": 2000
+      },
+      {
+        "name": "AYAM",
+        "quantity": 1,
+        "unit_price": 14000,
+        "total_price": 14000
+      },
+      {
+        "name": "MINUMAN KEMASAN/REFILL",
+        "quantity": 1,
+        "unit_price": 6000,
+        "total_price": 6000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0027",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 16363,
+      "tax_amount": 1636,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 17999,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 16363
+    },
+    "items": [
+      {
+        "name": "THAI ICED TEA (L)",
+        "quantity": 1,
+        "unit_price": 16363,
+        "total_price": 16363
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0028",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 22000,
+      "cash_paid": 22000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 22000
+    },
+    "items": [
+      {
+        "name": "ELEPHANT READ BEAN",
+        "quantity": 1,
+        "unit_price": 12000,
+        "total_price": 12000
+      },
+      {
+        "name": "chapsal twister donnut",
+        "quantity": 1,
+        "unit_price": 10000,
+        "total_price": 10000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0029",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 30000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": 0,
+      "total_amount": null,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 20000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 30000
+    },
+    "items": [
+      {
+        "name": "Sabun Beras",
+        "quantity": 1,
+        "unit_price": 30000,
+        "total_price": 30000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0030",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 21000,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 29000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 21000
+    },
+    "items": [
+      {
+        "name": "REDBEAN BRE/D",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 9000
+      },
+      {
+        "name": "FRANKFRUT S/USAGE ROLL",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 12000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0031",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 24000,
+      "cash_paid": 24000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 24000
+    },
+    "items": [
+      {
+        "name": "PREMIUM TOAST PAN BREAD",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 24000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0032",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 6000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 6000,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "e-money",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 6000
+    },
+    "items": [
+      {
+        "name": "Nasi (MLY)",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 6000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0033",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 57500,
+      "cash_paid": 7500,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 57500
+    },
+    "items": [
+      {
+        "name": "GRAINS PAN BREAD",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 20500
+      },
+      {
+        "name": "ICED HIBISCUS LYCHEE TEA",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 37000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0034",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 243000,
+      "tax_amount": 25758,
+      "service_charge": 14580,
+      "discount": null,
+      "total_amount": 283338,
+      "cash_paid": null,
+      "card_paid": 2833385962,
+      "change_amount": null,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 243000
+    },
+    "items": [
+      {
+        "name": "GRILLED BABY POTATO (R",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 50500
+      },
+      {
+        "name": "TRUFFLE CREAM",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 76000
+      },
+      {
+        "name": "CARBONARA",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 70500
+      },
+      {
+        "name": "ORIGINAL BREWED TEA",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 46000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0035",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 261000,
+      "tax_amount": 27666,
+      "service_charge": 15660,
+      "discount": null,
+      "total_amount": 304326,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 261000
+    },
+    "items": [
+      {
+        "name": "BLACK PEPPER MEATBALL",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 76500
+      },
+      {
+        "name": "QUARTO FORMANGGI PASTA",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 82500
+      },
+      {
+        "name": "GREEN TEA WITH CRUMBLE",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 56000
+      },
+      {
+        "name": "ORIGINAL BREWED TEA",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 46000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0036",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 17272,
+      "tax_amount": 1727,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 18999,
+      "cash_paid": 18999,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 17272
+    },
+    "items": [
+      {
+        "name": "Soft Ori 3 Top",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 17272
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0037",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 63636,
+      "tax_amount": 6364,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 70000,
+      "cash_paid": 70000,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 63636
+    },
+    "items": [
+      {
+        "name": "Ice Lemon Tea",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 13636
+      },
+      {
+        "name": "- Gyro Platter Regular",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 50000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0038",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 80000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 20000
+    },
+    "items": [
+      {
+        "name": "TT",
+        "quantity": 1,
+        "unit_price": 20000,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0039",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 89000,
+      "tax_amount": 8900,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 97900,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 2100,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 89000
+    },
+    "items": [
+      {
+        "name": "PKT TELOR/PERKEDEL",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 26000
+      },
+      {
+        "name": "TERONG",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 12000
+      },
+      {
+        "name": "PARU",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 23000
+      },
+      {
+        "name": "SBL GR ATI/AMPLA",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 20000
+      },
+      {
+        "name": "NESTLE 330 ML",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 8000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0040",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 345000,
+      "tax_amount": 34500,
+      "service_charge": 0,
+      "discount": 0,
+      "total_amount": 379500,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 345000
+    },
+    "items": [
+      {
+        "name": "Gojek Chicken Chilli Sauce H",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 95000
+      },
+      {
+        "name": "Gojek Chicken Soy Sauce F",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 180000
+      },
+      {
+        "name": "Gojek French Fries",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 70000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0041",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 2000000,
+      "tax_amount": 212460,
+      "service_charge": 140000,
+      "discount": 0,
+      "total_amount": 2352460,
+      "cash_paid": null,
+      "card_paid": 2352460,
+      "change_amount": 0,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 2000000
+    },
+    "items": [
+      {
+        "name": "SOGOGI JAPCHAE",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 150000
+      },
+      {
+        "name": "GONG GIBAB",
+        "quantity": 7,
+        "unit_price": null,
+        "total_price": 105000
+      },
+      {
+        "name": "CHULPAN CHEESE DAK GALBI",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 230000
+      },
+      {
+        "name": "CREAM TEOK PO KI",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 95000
+      },
+      {
+        "name": "EL KEUN HWANGTAE",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 120000
+      },
+      {
+        "name": "SUNDUBU(TUKBEGI) CHAM KKOT SAL",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 620000
+      },
+      {
+        "name": "U SAM GYEOP",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 290000
+      },
+      {
+        "name": "U SEOL",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 390000
+      },
+      {
+        "name": "U SAM GYEOP",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 0
+      },
+      {
+        "name": "ICE COFFE MIX",
+        "quantity": 3,
+        "unit_price": null,
+        "total_price": 0
+      },
+      {
+        "name": "ICE BLACK COFFE",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 0
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0042",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 53000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 53000,
+      "cash_paid": null,
+      "card_paid": 53000,
+      "change_amount": 0,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 53000
+    },
+    "items": [
+      {
+        "name": "STIX CINNAMON",
+        "quantity": 1,
+        "unit_price": 19000,
+        "total_price": 19000
+      },
+      {
+        "name": "CINNAMON SUGAR",
+        "quantity": 1,
+        "unit_price": 17000,
+        "total_price": 17000
+      },
+      {
+        "name": "TRIPPLE CHEESE",
+        "quantity": 1,
+        "unit_price": 17000,
+        "total_price": 17000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0043",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 278000,
+      "cash_paid": 300000,
+      "card_paid": null,
+      "change_amount": 22000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 278000
+    },
+    "items": [
+      {
+        "name": "ROTI UNYIL",
+        "quantity": 170,
+        "unit_price": null,
+        "total_price": 272000
+      },
+      {
+        "name": "PAPER BAG BESAR",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 6000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0044",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 16363,
+      "tax_amount": 1636,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 17999,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 16363
+    },
+    "items": [
+      {
+        "name": "THAI ICED TEA (L)",
+        "quantity": 1,
+        "unit_price": 16363,
+        "total_price": 16363
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0045",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 240000,
+      "tax_amount": 26160,
+      "service_charge": 21600,
+      "discount": null,
+      "total_amount": 287760,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 240000
+    },
+    "items": [
+      {
+        "name": "AOP Seafood",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 85000
+      },
+      {
+        "name": "Omurice Katsu Curry",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 95000
+      },
+      {
+        "name": "Earl Gray Tea",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 35000
+      },
+      {
+        "name": "Hot Tea",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 25000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0046",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 22000,
+      "cash_paid": 22000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 22000
+    },
+    "items": [
+      {
+        "name": "MARBLE CASTELA",
+        "quantity": 1,
+        "unit_price": 22000,
+        "total_price": 22000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0047",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 42000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 42000,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 8000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 42000
+    },
+    "items": [
+      {
+        "name": "Seaweed Chicken",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 42000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0048",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 55908,
+      "tax_amount": 5592,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 61500,
+      "cash_paid": 70000,
+      "card_paid": null,
+      "change_amount": 8500,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 55908
+    },
+    "items": [
+      {
+        "name": "SB 1 OR",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 28636
+      },
+      {
+        "name": "Chokocha Flt",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 13636
+      },
+      {
+        "name": "Bbq Bento",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 13636
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0049",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 74000,
+      "tax_amount": 7400,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": null,
+      "cash_paid": 81400,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 74000
+    },
+    "items": [
+      {
+        "name": "Nasi CampurBali",
+        "quantity": 1,
+        "unit_price": 52000,
+        "total_price": 52000
+      },
+      {
+        "name": "Lemon",
+        "quantity": 1,
+        "unit_price": 22000,
+        "total_price": 22000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0050",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 26000,
+      "cash_paid": 26000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 26000
+    },
+    "items": [
+      {
+        "name": "CHOCOLATE ECLAIR",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 26000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0051",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 57200,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 57200,
+      "cash_paid": null,
+      "card_paid": 57200,
+      "change_amount": null,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 57200
+    },
+    "items": [
+      {
+        "name": "Round Wagyu (1gr)",
+        "quantity": 118,
+        "unit_price": null,
+        "total_price": 47200
+      },
+      {
+        "name": "Wagyu Rice Box",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 10000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0052",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 56000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 56000,
+      "cash_paid": 56000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 56000
+    },
+    "items": [
+      {
+        "name": "KENTHIR 2",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 42000
+      },
+      {
+        "name": "KOL GORENG",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 6000
+      },
+      {
+        "name": "TEH MANIS",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 8000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0053",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 31000,
+      "cash_paid": 40000,
+      "card_paid": null,
+      "change_amount": 9000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 31000
+    },
+    "items": [
+      {
+        "name": "Large 1",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 11000
+      },
+      {
+        "name": "Pastry Keju",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0054",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 40000,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 10000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 40000
+    },
+    "items": [
+      {
+        "name": "4003-Blueberry Fuji",
+        "quantity": 1,
+        "unit_price": 40000,
+        "total_price": 40000
+      },
+      {
+        "name": "6001-Plastic Bag Small",
+        "quantity": 1,
+        "unit_price": 0,
+        "total_price": 0
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0055",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 60000,
+      "cash_paid": null,
+      "card_paid": 60000,
+      "change_amount": null,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": true,
+      "items_sum": 120000
+    },
+    "items": [
+      {
+        "name": "Cha Keaw L...",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 60000
+      },
+      {
+        "name": "Cha Keaw L...",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 60000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0056",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 20000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 20000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 20000
+    },
+    "items": [
+      {
+        "name": "Thai Iced T. .x1",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0057",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 247500,
+      "tax_amount": 26235,
+      "service_charge": 14850,
+      "discount": null,
+      "total_amount": 288585,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 247500
+    },
+    "items": [
+      {
+        "name": "SEAFOOD MARINARA",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 85000
+      },
+      {
+        "name": "CREAMY MARINARA SALMON",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 85500
+      },
+      {
+        "name": "LYCHEE ICE TEA",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 77000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0058",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 25000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 25000,
+      "cash_paid": 25000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 25000
+    },
+    "items": [
+      {
+        "name": "Viet Milk Coffee",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 25000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0059",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 561800,
+      "tax_amount": 60394,
+      "service_charge": 42135,
+      "discount": null,
+      "total_amount": 664329,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 561800
+    },
+    "items": [
+      {
+        "name": "XLB Org Pork 10x",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 78000
+      },
+      {
+        "name": "Sicito Babi",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 65000
+      },
+      {
+        "name": "Hotplate Tahu",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 58000
+      },
+      {
+        "name": "DF Fish Fillet Garlc",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 108000
+      },
+      {
+        "name": "LM Pork Belly",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 88000
+      },
+      {
+        "name": "Siew Mai",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 38800
+      },
+      {
+        "name": "Kwan Yin Cup",
+        "quantity": 5,
+        "unit_price": null,
+        "total_price": 50000
+      },
+      {
+        "name": "Herbal Jelly",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 38000
+      },
+      {
+        "name": "Onde-Onde",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 38000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0060",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 180000,
+      "cash_paid": null,
+      "card_paid": 180000,
+      "change_amount": null,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 180000
+    },
+    "items": [
+      {
+        "name": "VANILLA CHOCO HEART CAKE",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 180000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0061",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 7500,
+      "tax_amount": 750,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 8250,
+      "cash_paid": 10000,
+      "card_paid": null,
+      "change_amount": 1800,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 7500
+    },
+    "items": [
+      {
+        "name": "Populaire Chocolate",
+        "quantity": 1,
+        "unit_price": 4500,
+        "total_price": 4500
+      },
+      {
+        "name": "Paddle Pop Choco Magma",
+        "quantity": 1,
+        "unit_price": 3000,
+        "total_price": 3000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0062",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 56364,
+      "tax_amount": 5636,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 62000,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 38000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 56364
+    },
+    "items": [
+      {
+        "name": "French Fries",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 10909
+      },
+      {
+        "name": "Cheese Burger",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 36364
+      },
+      {
+        "name": "Milo",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 9091
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0063",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 51636,
+      "tax_amount": 5164,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 56800,
+      "cash_paid": 110000,
+      "card_paid": null,
+      "change_amount": 53200,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 51636
+    },
+    "items": [
+      {
+        "name": "ISI CAMPUR",
+        "quantity": 1,
+        "unit_price": 43636,
+        "total_price": 43636
+      },
+      {
+        "name": "A.MINERAL BOTOL",
+        "quantity": 1,
+        "unit_price": 8000,
+        "total_price": 8000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0064",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 80000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 20000
+    },
+    "items": [
+      {
+        "name": "WHOLE WHEAT PAN BREAD",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0065",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 49636,
+      "tax_amount": 4964,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 54600,
+      "cash_paid": 60100,
+      "card_paid": null,
+      "change_amount": 5500,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 49636
+    },
+    "items": [
+      {
+        "name": "BASO TAHU",
+        "quantity": 1,
+        "unit_price": 43636,
+        "total_price": 43636
+      },
+      {
+        "name": "NASI PUTIH",
+        "quantity": 1,
+        "unit_price": 6000,
+        "total_price": 6000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0066",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 7000,
+      "cash_paid": 7000,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 7000
+    },
+    "items": [
+      {
+        "name": "AIR MINERAL",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 7000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0067",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 69091,
+      "tax_amount": 6909,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 76000,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 69091
+    },
+    "items": [
+      {
+        "name": "PAKET BER2",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 69091
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0068",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 26000,
+      "cash_paid": 30000,
+      "card_paid": null,
+      "change_amount": 4000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 26000
+    },
+    "items": [
+      {
+        "name": "Honey Mandarin",
+        "quantity": 2,
+        "unit_price": 13000,
+        "total_price": 26000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0069",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 151500,
+      "tax_amount": 15908,
+      "service_charge": 7575,
+      "discount": null,
+      "total_amount": 174983,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 151500
+    },
+    "items": [
+      {
+        "name": "SOTO MEDAN+NASI",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 59500
+      },
+      {
+        "name": "GADO-GADO",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 34500
+      },
+      {
+        "name": "SOTO BETAWI + NASI",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 57500
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0070",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 103000,
+      "tax_amount": 11073,
+      "service_charge": 7725,
+      "discount": null,
+      "total_amount": 121798,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 103000
+    },
+    "items": [
+      {
+        "name": "KaraageCurryTeishoku",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 69000
+      },
+      {
+        "name": "Lemon Plate",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 19000
+      },
+      {
+        "name": "Ocha Hot",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 15000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0071",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 20000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 30000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 19000
+    },
+    "items": [
+      {
+        "name": "Dum Dum Thai Coffee",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 19000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0072",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 36000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 36000,
+      "cash_paid": null,
+      "card_paid": 36000,
+      "change_amount": 0,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 36000
+    },
+    "items": [
+      {
+        "name": "STIX CINNAMON",
+        "quantity": 1,
+        "unit_price": 19000,
+        "total_price": 19000
+      },
+      {
+        "name": "TRIPPLE CHEESE",
+        "quantity": 1,
+        "unit_price": 17000,
+        "total_price": 17000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0073",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 30000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 20000
+    },
+    "items": [
+      {
+        "name": "ICED TT",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0074",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 20000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 20000,
+      "cash_paid": 20000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 20000
+    },
+    "items": [
+      {
+        "name": "THAI ICED TEA",
+        "quantity": 1,
+        "unit_price": 20000,
+        "total_price": 20000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0075",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 60454,
+      "tax_amount": 6046,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 66500,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 33500,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 60454
+    },
+    "items": [
+      {
+        "name": "KFC Winger HC",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 40000
+      },
+      {
+        "name": "Ori Bento",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 13636
+      },
+      {
+        "name": "Mango Float",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 5909
+      },
+      {
+        "name": "F.Wngr GES-HC",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 0
+      },
+      {
+        "name": "CHARGE TA",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 909
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0076",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 99000,
+      "cash_paid": null,
+      "card_paid": 99000,
+      "change_amount": null,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 99000
+    },
+    "items": [
+      {
+        "name": "Enting2 Dua Bandeng Ori",
+        "quantity": 1,
+        "unit_price": 31000,
+        "total_price": 31000
+      },
+      {
+        "name": "TAHU BAKSO Grg Ayam VC [biji",
+        "quantity": 10,
+        "unit_price": 6800,
+        "total_price": 68000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0077",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 5800000,
+      "tax_amount": 527273,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 5800000,
+      "cash_paid": 10000000,
+      "card_paid": null,
+      "change_amount": 4200000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 5800000
+    },
+    "items": [
+      {
+        "name": "Cheese Tart",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 5800000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0078",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 154000,
+      "tax_amount": 16170,
+      "service_charge": 7700,
+      "discount": null,
+      "total_amount": 177870,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 154000
+    },
+    "items": [
+      {
+        "name": "Mineral Water",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 18000
+      },
+      {
+        "name": "Teh Tawar Dingin",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 11000
+      },
+      {
+        "name": "Soto Betawi",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 116000
+      },
+      {
+        "name": "NASI PUTIH",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 9000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0079",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 72000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 72000,
+      "cash_paid": null,
+      "card_paid": 72000,
+      "change_amount": null,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 72000
+    },
+    "items": [
+      {
+        "name": "Crab Stick",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 9000
+      },
+      {
+        "name": "Bakso Lobster",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 10000
+      },
+      {
+        "name": "Sawi Putih",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 7000
+      },
+      {
+        "name": "Jamur Enoki",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 8000
+      },
+      {
+        "name": "Jamur Kuping",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 8000
+      },
+      {
+        "name": "Maling",
+        "quantity": 2,
+        "unit_price": 12000,
+        "total_price": 24000
+      },
+      {
+        "name": "Nasi (MLY)",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 6000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0080",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 25000,
+      "cash_paid": 25000,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 25000
+    },
+    "items": [
+      {
+        "name": "Sate Padang",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 25000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0081",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 250909,
+      "tax_amount": 25091,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 276000,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 250909
+    },
+    "items": [
+      {
+        "name": "SURIMI",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 29091
+      },
+      {
+        "name": "CREAMY CHK CLS FTC",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 42727
+      },
+      {
+        "name": "MIX 4FUN CHOCOLATE",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 19091
+      },
+      {
+        "name": "GREEN ITSODA PITCHER",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 60909
+      },
+      {
+        "name": "SC/R GRILLED STEAK",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 99091
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0082",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 35000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 35000,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 65000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 35000
+    },
+    "items": [
+      {
+        "name": "PEARL CHOCO TEA",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 17000
+      },
+      {
+        "name": "GREEN TEA LYCHEE",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 18000
+      },
+      {
+        "name": "TUTUP SEAL",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 0
+      },
+      {
+        "name": "CUP 14 OZ",
+        "quantity": 2,
+        "unit_price": null,
+        "total_price": 0
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0083",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 17000,
+      "tax_amount": 0,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 17000,
+      "cash_paid": 17000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 17000
+    },
+    "items": [
+      {
+        "name": "S-Milk tea",
+        "quantity": 1,
+        "unit_price": 17000,
+        "total_price": 17000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0084",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 52000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 52000,
+      "cash_paid": null,
+      "card_paid": 52000,
+      "change_amount": null,
+      "payment_method": "card",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 48000
+    },
+    "items": [
+      {
+        "name": "HAZELNUT CHOCO MT (R)",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 24000
+      },
+      {
+        "name": "HAZELNUT CHOCO MT (R)",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 24000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0085",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 13636,
+      "tax_amount": 1364,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 15000,
+      "cash_paid": 20000,
+      "card_paid": null,
+      "change_amount": 5000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 13636
+    },
+    "items": [
+      {
+        "name": "Peanut & Cheese",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 13636
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0086",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 26000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 26000,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "e-money",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 26000
+    },
+    "items": [
+      {
+        "name": "LEMONADE22OZ",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 26000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0087",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 29000,
+      "tax_amount": 0,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 29000,
+      "cash_paid": 30000,
+      "card_paid": null,
+      "change_amount": 1000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 29000
+    },
+    "items": [
+      {
+        "name": "M-Passion Fruit Mac",
+        "quantity": 1,
+        "unit_price": 29000,
+        "total_price": 29000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0088",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 154545,
+      "tax_amount": 15455,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 170000,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 154545
+    },
+    "items": [
+      {
+        "name": "PAKET BER4 UP3",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 154545
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0089",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 29000,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 71000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 29000
+    },
+    "items": [
+      {
+        "name": "Chocochip & Walnut",
+        "quantity": 1,
+        "unit_price": 29000,
+        "total_price": 29000
+      },
+      {
+        "name": "Plastic Bag Small",
+        "quantity": 1,
+        "unit_price": 0,
+        "total_price": 0
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0090",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 7000000,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 7000000
+    },
+    "items": [
+      {
+        "name": "REGULAR",
+        "quantity": 2,
+        "unit_price": 3500000,
+        "total_price": 7000000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0091",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 40000,
+      "tax_amount": 4000,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 44000,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 6000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 39091
+    },
+    "items": [
+      {
+        "name": "K7 1217",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 39091
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0092",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 20909,
+      "tax_amount": 2091,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 23000,
+      "cash_paid": 25000,
+      "card_paid": null,
+      "change_amount": 2000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 20909
+    },
+    "items": [
+      {
+        "name": "<FC Winger HC",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 20000
+      },
+      {
+        "name": "CHARGE TA",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 909
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0093",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 156364,
+      "tax_amount": 15636,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 172000,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 156364
+    },
+    "items": [
+      {
+        "name": "PAKET BER4",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 138182
+      },
+      {
+        "name": "50% CHICKEN ROYAL",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 18182
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0094",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 69000,
+      "tax_amount": null,
+      "service_charge": 3795,
+      "discount": 0,
+      "total_amount": 80100,
+      "cash_paid": null,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "unknown",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 69000
+    },
+    "items": [
+      {
+        "name": "Emily's Shrimp Scampi Fettucine",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 69000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0095",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 27272,
+      "tax_amount": 2700,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 30000,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 20000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 27272
+    },
+    "items": [
+      {
+        "name": "SAYAP",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 13636
+      },
+      {
+        "name": "PAHA BAWAH",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 13636
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0096",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 13636,
+      "tax_amount": 1159,
+      "service_charge": null,
+      "discount": 2045,
+      "total_amount": 12750,
+      "cash_paid": 12750,
+      "card_paid": null,
+      "change_amount": null,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 0
+    },
+    "items": [
+      {
+        "name": "Choco Cheese",
+        "quantity": 1,
+        "unit_price": 13636,
+        "total_price": 0
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0097",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 25000,
+      "cash_paid": 30000,
+      "card_paid": null,
+      "change_amount": 5000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 25000
+    },
+    "items": [
+      {
+        "name": "Lemon Tea (L)",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 25000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0098",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": null,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 100000,
+      "cash_paid": 100000,
+      "card_paid": null,
+      "change_amount": 0,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 100000
+    },
+    "items": [
+      {
+        "name": "Hulk Topper Package",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 100000
+      }
+    ],
+    "split": "validation"
+  },
+  {
+    "vendor": {
+      "name": "Unknown Vendor",
+      "address": null,
+      "phone": null,
+      "business_number": null
+    },
+    "receipt": {
+      "id": "cord_0099",
+      "vendor_name": "Unknown Vendor",
+      "date": null,
+      "subtotal": 39000,
+      "tax_amount": null,
+      "service_charge": null,
+      "discount": null,
+      "total_amount": 39000,
+      "cash_paid": 50000,
+      "card_paid": null,
+      "change_amount": 11000,
+      "payment_method": "cash",
+      "category": "Uncategorized",
+      "has_error": false,
+      "items_sum": 39000
+    },
+    "items": [
+      {
+        "name": "Giant Squid",
+        "quantity": 1,
+        "unit_price": null,
+        "total_price": 39000
+      }
+    ],
+    "split": "validation"
+  }
+]
