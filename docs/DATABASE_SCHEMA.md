@@ -222,25 +222,39 @@ export type IExpenseSummary = {
 
 ## CORD Dataset → Schema Mapping
 
-| CORD Field | Schema Field | Table |
-|------------|--------------|-------|
-| `store_info.name` | `name` | `vendors` |
-| `store_info.biznum` | `business_number` | `vendors` |
-| `store_info.addr` | `address` | `vendors` |
-| `store_info.tel` | `phone` | `vendors` |
-| `menu.nm` | `name` | `line_items` |
-| `menu.cnt` | `quantity` | `line_items` |
-| `menu.unitprice` | `unit_price` | `line_items` |
-| `menu.price` | `total_price` | `line_items` |
-| `menu.sub.*` | Sub-items with `parent_item_id` | `line_items` |
-| `sub_total.subtotal_price` | `subtotal` | `receipts` |
-| `sub_total.tax_price` | `tax_amount` | `receipts` |
-| `sub_total.service_price` | `service_charge` | `receipts` |
-| `sub_total.discount_price` | `discount` | `receipts` |
-| `total.total_price` | `total_amount` | `receipts` |
-| `total.cashprice` | `cash_paid` | `receipts` |
-| `total.creditcardprice` | `card_paid` | `receipts` |
-| `total.changeprice` | `change_amount` | `receipts` |
+| CORD Field | Schema Field | Table | Notes |
+|------------|--------------|-------|-------|
+| `store_info.name` | `name` | `vendors` | ⚠️ Not always present |
+| `store_info.biznum` | `business_number` | `vendors` | Optional |
+| `store_info.addr` | `address` | `vendors` | Optional |
+| `store_info.tel` | `phone` | `vendors` | Optional |
+| `menu.nm` | `name` | `line_items` | ✅ Always present |
+| `menu.cnt` | `quantity` | `line_items` | ✅ Always present |
+| `menu.unitprice` | `unit_price` | `line_items` | ⚠️ Not always present |
+| `menu.price` | `total_price` | `line_items` | ✅ Always present |
+| `menu.sub.*` | Sub-items with `parent_item_id` | `line_items` | Nested items |
+| `sub_total.subtotal_price` | `subtotal` | `receipts` | ⚠️ Not always present |
+| `sub_total.tax_price` | `tax_amount` | `receipts` | ⚠️ Not always present |
+| `sub_total.service_price` | `service_charge` | `receipts` | ⚠️ Not always present |
+| `sub_total.discount_price` | `discount` | `receipts` | ⚠️ Not always present |
+| `total.total_price` | `total_amount` | `receipts` | ✅ Always present |
+| `total.cashprice` | `cash_paid` | `receipts` | Present if cash payment |
+| `total.creditcardprice` | `card_paid` | `receipts` | Present if card payment |
+| `total.changeprice` | `change_amount` | `receipts` | Present if cash payment |
+
+### ⚠️ Important Notes on CORD Dataset
+
+1. **Prices are STRINGS**: CORD uses locale-formatted strings like `"16,500"` (Indonesian Rupiah)
+   - Use `parseCordPrice()` from `extraction.types.ts` to convert to numbers
+   
+2. **`store_info` is often missing**: Not all receipts have vendor information in `gt_parse`
+   - `vendor_id` in `receipts` table is nullable
+   
+3. **`sub_total` is often missing**: Many receipts only have `total`, not subtotals
+   - All subtotal fields are optional in schema
+
+4. **Currency**: CORD receipts are in Indonesian Rupiah (IDR)
+   - Consider adding a `currency` field if supporting multiple currencies
 
 ---
 

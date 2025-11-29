@@ -18,11 +18,28 @@
 // EXTRACTION OUTPUT TYPES
 // ============================================
 
+/**
+ * Vendor/Store info - OPTIONAL in CORD dataset
+ * Note: Not all CORD receipts have store_info in gt_parse.
+ * When missing, extract from valid_line if available, or leave empty.
+ */
 export interface VendorInfo {
-  name: string;
-  address?: string;
-  phone?: string;
-  businessNumber?: string;  // CORD: biznum
+  name: string;              // CORD: store_info.name (may need to extract from image)
+  address?: string;          // CORD: store_info.addr
+  phone?: string;            // CORD: store_info.tel
+  businessNumber?: string;   // CORD: store_info.biznum
+}
+
+/**
+ * CORD prices are STRINGS with locale formatting (e.g., "16,500")
+ * Use this helper to parse them to numbers.
+ */
+export function parseCordPrice(priceStr: string | undefined): number | undefined {
+  if (!priceStr) return undefined;
+  // Remove all non-numeric chars except decimal point
+  // CORD uses comma as thousand separator, not decimal
+  const cleaned = priceStr.replace(/[^\d]/g, '');
+  return cleaned ? parseInt(cleaned, 10) : undefined;
 }
 
 export interface LineItem {
@@ -66,7 +83,7 @@ export interface ExtractionResult {
   
   // Extracted data
   data: {
-    vendor: VendorInfo;
+    vendor: VendorInfo | null;  // NULL if no store_info found in receipt
     receipt: ReceiptData;
     items: LineItem[];
   };
@@ -169,9 +186,10 @@ export function validateExtractionResult(result: ExtractionResult): string[] {
     errors.push('Total amount is required');
   }
   
-  if (!result.data.vendor.name) {
-    errors.push('Vendor name is required');
-  }
+  // Vendor is now optional (not all CORD receipts have store_info)
+  // if (!result.data.vendor?.name) {
+  //   errors.push('Vendor name is required');
+  // }
   
   if (result.data.items.length === 0) {
     errors.push('At least one line item is required');
@@ -181,9 +199,130 @@ export function validateExtractionResult(result: ExtractionResult): string[] {
   const itemsSum = result.data.items.reduce((sum, item) => sum + item.totalPrice, 0);
   const expectedSubtotal = result.data.receipt.subtotal || result.data.receipt.totalAmount;
   
-  if (Math.abs(itemsSum - expectedSubtotal) > 1) { // $1 tolerance
+  // Use percentage tolerance (5%) instead of fixed amount for Indonesian Rupiah
+  const tolerance = expectedSubtotal * 0.05;
+  if (Math.abs(itemsSum - expectedSubtotal) > tolerance) { 
     errors.push(`Items sum (${itemsSum}) doesn't match subtotal (${expectedSubtotal})`);
   }
   
   return errors;
 }
+
+// ============================================
+// CORD DATASET TYPES (for parsing gt_parse)
+// ============================================
+
+/**
+ * Raw CORD gt_parse structure - matches the dataset exactly.
+ * Use CordParser to convert to ExtractionResult.
+ */
+export interface CordGtParse {
+  menu?: CordMenuItem[];
+  sub_total?: {
+    subtotal_price?: string;
+    discount_price?: string;
+    service_price?: string;
+    othersvc_price?: string;
+    tax_price?: string;
+  };
+  total?: {
+    total_price?: string;
+    creditcardprice?: string;
+    emoneyprice?: string;
+    cashprice?: string;
+    changeprice?: string;
+    menutype_cnt?: string;
+    menuqty_cnt?: string;
+  };
+  store_info?: {
+    name?: string;
+    addr?: string;
+    tel?: string;
+    fax?: string;
+    biznum?: string;
+  };
+}
+
+export interface CordMenuItem {
+  nm?: string;           // Item name
+  num?: string;          // Item number
+  unitprice?: string;    // Unit price
+  cnt?: string;          // Count/quantity
+  discountprice?: string;
+  price?: string;        // Total price for this item
+  itemsubtotal?: string;
+  sub?: CordMenuItem[];  // Sub-items (e.g., toppings, modifiers)
+}
+
+export interface CordValidLine {
+  words: Array<{
+    quad: { x1: number; y1: number; x2: number; y2: number; x3: number; y3: number; x4: number; y4: number };
+    is_key: number;
+    row_id: number;
+    text: string;
+  }>;
+  category: string;      // e.g., "menu.nm", "menu.cnt", "total.total_price"
+  group_id: number;
+  sub_group_id: number;
+}
+
+/**
+ * Convert CORD gt_parse to our ExtractionResult format
+ */
+export function cordToExtractionResult(gtParse: CordGtParse): ExtractionResult {
+  const items: LineItem[] = (gtParse.menu || []).map(item => ({
+    name: item.nm || 'Unknown Item',
+    quantity: parseCordPrice(item.cnt) || 1,
+    unitPrice: parseCordPrice(item.unitprice),
+    totalPrice: parseCordPrice(item.price) || 0,
+    subItems: item.sub?.map(sub => ({
+      name: sub.nm || 'Sub-item',
+      quantity: parseCordPrice(sub.cnt) || 1,
+      unitPrice: parseCordPrice(sub.unitprice),
+      totalPrice: parseCordPrice(sub.price) || 0,
+    })),
+  }));
+
+  const totalAmount = parseCordPrice(gtParse.total?.total_price) || 0;
+  const cashPaid = parseCordPrice(gtParse.total?.cashprice);
+  const cardPaid = parseCordPrice(gtParse.total?.creditcardprice);
+  
+  // Determine payment method
+  let paymentMethod: 'cash' | 'card' | 'mixed' | 'other' = 'other';
+  if (cashPaid && cardPaid) paymentMethod = 'mixed';
+  else if (cashPaid) paymentMethod = 'cash';
+  else if (cardPaid) paymentMethod = 'card';
+
+  const vendor: VendorInfo | null = gtParse.store_info?.name 
+    ? {
+        name: gtParse.store_info.name,
+        address: gtParse.store_info.addr,
+        phone: gtParse.store_info.tel,
+        businessNumber: gtParse.store_info.biznum,
+      }
+    : null;
+
+  return {
+    success: true,
+    confidence: 1.0, // Ground truth = 100% confidence
+    data: {
+      vendor,
+      receipt: {
+        subtotal: parseCordPrice(gtParse.sub_total?.subtotal_price),
+        taxAmount: parseCordPrice(gtParse.sub_total?.tax_price),
+        serviceCharge: parseCordPrice(gtParse.sub_total?.service_price),
+        discount: parseCordPrice(gtParse.sub_total?.discount_price),
+        totalAmount,
+        paymentMethod,
+        cashPaid,
+        cardPaid,
+        changeAmount: parseCordPrice(gtParse.total?.changeprice),
+        itemTypeCount: parseCordPrice(gtParse.total?.menutype_cnt),
+        totalItemCount: parseCordPrice(gtParse.total?.menuqty_cnt),
+      },
+      items,
+    },
+    modelUsed: 'cord-ground-truth',
+  };
+}
+
