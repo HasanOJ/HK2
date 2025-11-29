@@ -1,95 +1,65 @@
-# 🧾 Small Business Auto-Bookkeeper - API Server
+# HK2 — Hackathon Workspace
 
-**Hackathon 2 Project** - Team HasanOJ
+## Architecture
+- **API**: `minimal-api-dev-v7.0.0` (Next.js API routes) serving auditing, seeding, and SQL endpoints; data stored in SQLite (`data/bookkeeper.db`).
+- **Frontends**: Starter templates in `Minimal_TypeScript_v7.5.0` (Next.js and Vite TS variants) for UI experimentation.
+- **Data & Notebooks**: `notebooks/cord_dataset_exploration.ipynb` converts CORD v2 ground-truth JSON to receipts and vendors, exports to `minimal-api-dev-v7.0.0/data/cord_receipts.json`, and seeds the DB.
+- **Docs**: Schema and specs in `docs/` and root `🚀 Hackathon 2 –Specs.md`.
 
----
+- More details:
+  - API overview: `minimal-api-dev-v7.0.0/README.md`
+  - API setup: `minimal-api-dev-v7.0.0/SETUP.md`
+  - Frontend templates: `Minimal_TypeScript_v7.5.0/README.md`
+  - Database schema: `docs/DATABASE_SCHEMA.md`
+  - License: `Minimal_TypeScript_v7.5.0/LICENSE.md`
 
-## 🚀 Quick Start
+## Setup Instructions
+- **Install deps (API)**:
+  ```powershell
+  cd "c:\Users\ASUS\Documents\GitHub\HK2\minimal-api-dev-v7.0.0"
+  npm install
+  ```
+- **Run API locally**:
+  ```powershell
+  npm run dev
+  # Server listens on http://localhost:7272 (per project config)
+  ```
+- **Seed database (optional via notebook)**:
+  - Open `notebooks/cord_dataset_exploration.ipynb` and run cells to generate `data/cord_receipts.json` and seed `data/bookkeeper.db`.
+- **Quick auditor SQL example**:
+  ```powershell
+  $body = @{ message = "How many receipts paid by card?" } | ConvertTo-Json
+  Invoke-RestMethod -Uri "http://localhost:7272/api/auditor/sql" -Method POST -Body $body -ContentType "application/json" -TimeoutSec 60
+  ```
 
-### Prerequisites
-- **Node.js** 20+
-- **Ollama** (for AI Chat - required for `/api/auditor/sql`)
+- More setup references:
+  - Detailed API setup and scripts: `minimal-api-dev-v7.0.0/SETUP.md`
+  - Frontend usage and commands: `Minimal_TypeScript_v7.5.0/README.md`
+  - Hackathon specs: `🚀 Hackathon 2 –Specs.md`
 
-### 1. Install Dependencies
-```bash
-npm install
+### Common Endpoints (API)
+- `GET /api/test` — basic health/test.
+- `POST /api/auditor/sql` — NL prompt to SQL over receipts.
+- `POST /api/seed` — seeds database from `data/cord_receipts.json` (see `seed-db.mjs`).
+
+### Seeding via Script (alternative)
+If you prefer scripted seeding over the notebook and the project provides `seed-db.mjs`:
+```powershell
+cd "c:\Users\ASUS\Documents\GitHub\HK2\minimal-api-dev-v7.0.0"
+node .\seed-db.mjs
 ```
+This reads `data/cord_receipts.json` and populates `data/bookkeeper.db`.
 
-### 2. Setup Ollama (Local LLM) ⚠️ REQUIRED
+## Local AI Explained
+- **Goal**: Enable natural-language auditing over receipts. You send a prompt (e.g., a question) to the local API and it translates to a SQL query against SQLite.
+- **Flow**:
+  - Data is pre-extracted from CORD v2 JSON (no heavy OCR) and stored in SQLite.
+  - The auditor endpoint accepts NL prompts (like "flagged receipts" or "payment breakdown") and returns query results.
+- **Benefits**: Fast, private, and deterministic on your local dataset; ideal for hackathon-quality analytics without cloud dependencies.
 
-**Step A: Install Ollama**
-- **Windows**: Download from https://ollama.com/download/windows
-- **Mac**: `brew install ollama` or download from https://ollama.com
-- **Linux**: `curl -fsSL https://ollama.com/install.sh | sh`
-
-**Step B: Start Ollama service**
-```bash
-# Windows: Ollama runs automatically after install (check system tray)
-# Mac/Linux: 
-ollama serve
-```
-
-**Step C: Pull the model (~1.9GB download)**
-```bash
-ollama pull qwen2.5:3b
-```
-
-**Step D: Verify it works**
-```bash
-ollama run qwen2.5:3b "Hello"
-# Should respond in ~2 seconds
-```
-
-> ⚠️ Without Ollama running, the `/api/auditor/sql` endpoint will fail.
-> The `/api/auditor` endpoint works without Ollama (rule-based).
-
-### 3. Seed the Database
-```bash
-npm run seed
-# Creates data/bookkeeper.db with 100 receipts
-```
-
-### 4. Start the Server
-```bash
-npm run dev
-# Server: http://localhost:7272
-```
-
----
-
-## 📡 API Endpoints
-
-### Receipts
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/receipts` | List all receipts |
-| GET | `/api/receipts/[id]` | Get single receipt |
-| POST | `/api/receipts` | Create receipt |
-
-### Analytics
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/analytics` | Dashboard stats |
-| GET | `/api/vendors` | List vendors |
-
-### AI Auditor Chat
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auditor` | Rule-based chat (no LLM) |
-| POST | `/api/auditor/sql` | LLM Text-to-SQL chat |
-
----
-
-## 🗄️ Database
-
-SQLite at `data/bookkeeper.db` (pre-seeded with 100 receipts)
-
----
-
-## 🔧 Environment
-
-Copy `.env.example` to `.env.local`:
-```
-OLLAMA_URL=http://localhost:11434
-OLLAMA_MODEL=qwen2.5:3b
-```
+## Related Docs
+- `docs/DATABASE_SCHEMA.md`: Table definitions and relationships.
+- `minimal-api-dev-v7.0.0/README.md`: API capabilities and endpoints.
+- `minimal-api-dev-v7.0.0/SETUP.md`: Environment, scripts, and seeding instructions.
+- `Minimal_TypeScript_v7.5.0/README.md`: Next.js/Vite template guidance.
+- `🚀 Hackathon 2 –Specs.md`: Project goals and requirements.
