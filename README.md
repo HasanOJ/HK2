@@ -37,6 +37,19 @@
   - Frontend usage and commands: `Minimal_TypeScript_v7.5.0/README.md`
   - Hackathon specs: `🚀 Hackathon 2 –Specs.md`
 
+### Common Endpoints (API)
+- `GET /api/test` — basic health/test.
+- `POST /api/auditor/sql` — NL prompt to SQL over receipts.
+- `POST /api/seed` — seeds database from `data/cord_receipts.json` (see `seed-db.mjs`).
+
+### Seeding via Script (alternative)
+If you prefer scripted seeding over the notebook and the project provides `seed-db.mjs`:
+```powershell
+cd "c:\Users\ASUS\Documents\GitHub\HK2\minimal-api-dev-v7.0.0"
+node .\seed-db.mjs
+```
+This reads `data/cord_receipts.json` and populates `data/bookkeeper.db`.
+
 ## Local AI Explained
 - **Goal**: Enable natural-language auditing over receipts. You send a prompt (e.g., a question) to the local API and it translates to a SQL query against SQLite.
 - **Flow**:
