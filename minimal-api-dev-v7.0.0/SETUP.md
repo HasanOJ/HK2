@@ -8,21 +8,48 @@
 
 ### Prerequisites
 - **Node.js** 20+
-- **Ollama** (for AI Chat) - https://ollama.com
+- **Ollama** (for AI Chat - required for `/api/auditor/sql`)
 
 ### 1. Install Dependencies
 ```bash
 npm install
 ```
 
-### 2. Setup Ollama (for AI Chat)
+### 2. Setup Ollama (Local LLM) ⚠️ REQUIRED
+
+**Step A: Install Ollama**
+- **Windows**: Download from https://ollama.com/download/windows
+- **Mac**: `brew install ollama` or download from https://ollama.com
+- **Linux**: `curl -fsSL https://ollama.com/install.sh | sh`
+
+**Step B: Start Ollama service**
 ```bash
-# Install Ollama from https://ollama.com
-# Then pull the model:
+# Windows: Ollama runs automatically after install (check system tray)
+# Mac/Linux: 
+ollama serve
+```
+
+**Step C: Pull the model (~1.9GB download)**
+```bash
 ollama pull qwen2.5:3b
 ```
 
-### 3. Start the Server
+**Step D: Verify it works**
+```bash
+ollama run qwen2.5:3b "Hello"
+# Should respond in ~2 seconds
+```
+
+> ⚠️ Without Ollama running, the `/api/auditor/sql` endpoint will fail.
+> The `/api/auditor` endpoint works without Ollama (rule-based).
+
+### 3. Seed the Database
+```bash
+npm run seed
+# Creates data/bookkeeper.db with 100 receipts
+```
+
+### 4. Start the Server
 ```bash
 npm run dev
 # Server: http://localhost:7272
